@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,nim,rust,golang" />
+  </a>
+</p>
+
 # practice
 _makes permanent_
 
