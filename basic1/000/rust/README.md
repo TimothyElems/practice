@@ -1,6 +1,6 @@
 # String v &str (string slice)
+_In Rust, `String` and `&str` represent two different ways to work with strings:_
 
-_In Rust, String and &str represent two different ways to work with strings:_
 **String:**
 - Owns the data: A String is a growable, owned string type. It holds the actual UTF-8 encoded data of the string on the heap.
 - Mutable: You can modify the characters within a String.
@@ -21,4 +21,5 @@ When to use which:
 
 Additional points:
 - Rust automatically converts between String and &str when necessary. For example, you can pass a String to a function expecting an &str argument.
-- String implements several methods for manipulating the string data, while &str has limited functionality due to its immutability.
+- `String` implements several methods for manipulating the string data, while `&str` has limited functionality due to its immutability.
+

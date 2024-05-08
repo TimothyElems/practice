@@ -12,5 +12,7 @@ fn main() {
     let x: &str = "Hello,";
     let y: &str = "World!";
 
+    // Should the above declaration be `let x: String`
+
     println!("{} {}", x, y);
 }
